@@ -20,11 +20,23 @@ font-family: 'Playfair Display', serif; */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 html {
+  /* Hide overflow-x */
   overflow-x: hidden;
+  /* Allow overflow-y to scroll */
+  overflow-y: scroll;
+  /* Hide scrollbar for IE and Edge */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Hide scrollbar for Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -50,69 +62,39 @@ body {
 }
 
 .overlay {
-  width: 100%;
-  height: 15%;
   position: fixed;
-  z-index: 101;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0);
+  padding: 2em 1.5em 0em 0em;
+  width: 98%;
+  height: 15%;
+  z-index: 101;
   overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  /* Create flex container */
+  display: flex;
+  /* Stack text link horizontally */
+  flex-direction: row;
+  /* Wrap if necessary */
+  /* flex-wrap: wrap; */
+  /* Align to left-end on x axis */
+  justify-content: flex-end;
+  /* Center on y axis */
+  align-content: center;
   transition: 0.5s;
 }
 
 .overlay a {
-  position: relative;
-  padding: 0px;
+  /* For Safari */
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px;
   text-decoration: none;
+  text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  color: #1d3480;
+  font-size: 22px;
+  color: #fff5ec;
   transition: all 0.5s;
-  writing-mode: sideways-lr;
-  text-transform: uppercase;
-  font-weight: normal;
-  flex: 1 100%;
-}
-
-.overlay a.one {
-  background: #6d8bcd;
-}
-
-.overlay a.two {
-  background: #9492c8;
-}
-
-.overlay a.three {
-  background: #cbb3c9;
-}
-
-.overlay a.four {
-  background: #f6bdc9;
-}
-
-.overlay a span {
-  position: absolute;
-  left: 50px;
-  bottom: 75px;
-  transform-origin: left top;
-  transition: all 0.5s ease-in-out;
-}
-
-.closebtn {
-  position: absolute;
-  z-index: 102;
-  top: 37px;
-  right: 15px;
-  font-size: 75px !important;
-  line-height: 0px;
-  cursor: pointer;
-  padding: 8px;
-  text-decoration: none;
-  font-family: 'Passion One', cursive;
-  color: #ffffff;
-  transition: all 0.3s;
-  text-transform: uppercase;
 }
 
 section {
@@ -124,7 +106,7 @@ section {
 #s1 {
   min-height: 100vh;
   height: auto;
-  background: url(../images/peacefulsky.jpg) fixed center center no-repeat;
+  background: url("dish-set.svg") fixed center center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
