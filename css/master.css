@@ -6,12 +6,10 @@
 /* font: Passion One, Poiret One, Libre Baskerville */
 /* "1C1C26","FFFFFF","4CC5FF","AF00F2","EB85FC" */
 /*  black,   white,   blue,   purple, light purple */
-
-
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
@@ -25,44 +23,48 @@ section.header_lrg {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  min-height:60vh;
-	height:auto;
+  min-height: 60vh;
+  height: auto;
   background: #1C1C26;
 }
 
 .header_lrg header {
-	text-align:center;
-	color:#FFFFFF;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .header_lrg h2 {
-	font-family: 'Poiret One', cursive;
-	font-size:3em;
-	line-height:1.2em;
-	text-transform: inherit;
-	color:#EB85FC;
-	font-weight:normal;
+  font-family: 'Poiret One', cursive;
+  font-size: 3em;
+  line-height: 1.2em;
+  text-transform: inherit;
+  color: #EB85FC;
+  font-weight: normal;
 }
+
 .header_lrg h1 {
-	font-family: 'Passion One', cursive;
-	font-size:6em;
-	text-transform: uppercase;
+  font-family: 'Passion One', cursive;
+  font-size: 6em;
+  text-transform: uppercase;
   color: #FFFFFF;
-	font-weight:normal;
+  font-weight: normal;
 }
 
 section.link nav {
   background-color: #4CC5FF;
 }
+
 section.link nav a:link {
   padding: 20px;
   background-color: #4CC5FF;
   display: inline-block;
   color: #FFFFFF;
 }
+
 section.link nav a:visited {
   color: #1C1C26;
 }
+
 section.link nav a:hover {
   background-color: #1C1C26;
   color: #4CC5FF;
@@ -74,11 +76,11 @@ section.text1 {
   justify-content: flex-end;
   align-items: center, baseline;
   /* min-height: 70vh; */
-	height:auto;
+  height: auto;
   background: #AF00F2;
   padding: 2.5em;
-  justify-content:space-between;
-  justify-content:space-around;
+  justify-content: space-between;
+  justify-content: space-around;
   padding: 3.5em 1em;
 }
 
@@ -91,15 +93,16 @@ section.text1 article {
 section.text1 h2 {
   font-family: "Poiret One", cursive;
   font-size: 2em;
-	text-transform: capitalize;
+  text-transform: capitalize;
   font-weight: normal;
-	color: #EB85FC;
+  color: #EB85FC;
 }
+
 section.text1 h1 {
-	font-family: 'Passion One', cursive;
-	font-size:3em;
-	text-transform: uppercase;
-	font-weight: normal;
+  font-family: 'Passion One', cursive;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: normal;
   color: #FFFFFF;
 }
 
@@ -117,7 +120,7 @@ section.text2 {
   justify-content: flex-end;
   align-items: center;
   min-height: 70vh;
-	height: auto;
+  height: auto;
   background: #AF00F2;
   /* padding: 2.5em; */
   padding: 3.5em 1em;
@@ -130,19 +133,21 @@ section.text2 article {
   padding: 2.5em;
   width: 50%;
 }
+
 section.text2 h2 {
   font-family: "Poiret One", cursive;
   font-size: 2em;
-	text-transform: capitalize;
+  text-transform: capitalize;
   font-weight: normal;
-	color: #EB85FC;
+  color: #EB85FC;
   line-height: 2em;
 }
+
 section.text2 h1 {
-	font-family: 'Passion One', cursive;
-	font-size:3em;
-	text-transform: uppercase;
-	font-weight: normal;
+  font-family: 'Passion One', cursive;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: normal;
   color: #FFFFFF;
 }
 
@@ -160,14 +165,15 @@ section.text2 a:link {
   display: inline-block;
   color: #FFFFFF;
 }
+
 section.text2 a:visited {
   color: #EB85FC;
 }
+
 /* section.text2 a:hover {
   background-color: #1C1C26;
   color: #4CC5FF;
 } */
-
 footer {
   background-color: #4CC5FF;
   color: #FFFFFF;
