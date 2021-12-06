@@ -43,10 +43,12 @@ body {
   margin: 0;
   font-family: minion-pro, 'Times New Roman', georgia, serif;
   height: 100%;
+  width: 100%;
   background-color: rbga(255, 245, 236, 0.5);
   /* fff5ec with 50% transparency */
 }
 
+/* LOGO SETUP */
 #logo {
   position: fixed;
   left: 2em;
@@ -57,11 +59,13 @@ body {
   transition: all 1s ease-in-out;
 }
 
+/* LOGO IMAGE SETUP */
 #logo img {
   width: auto;
   height: 75%;
 }
 
+/* NAVIGATION BAR SETUP */
 .overlay {
   position: fixed;
   top: 0;
@@ -85,6 +89,7 @@ body {
   transition: 0.5s;
 }
 
+/* NAVIGATION BAR LINK SETUP */
 .overlay a {
   /* For Safari */
   position: -webkit-sticky;
@@ -98,36 +103,34 @@ body {
   transition: all 0.5s;
 }
 
+/* SECTION SETUP */
 section {
   position: relative;
   background-color: #fcecdf;
 }
 
+/* FIRST SECTION SETUP */
 #s1 {
+  width: 100vw;
   min-height: 100vh;
   height: auto;
-  background: url("../images/dish-set.png") fixed center center no-repeat;
+  /* padding-left: 5em; */
+  background: url("../images/dish-set-flipped.png") fixed top left no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
-#s1 h2 {
-  font-family: 'Poiret One', cursive;
-  font-size: 55px;
-  line-height: 1.25em;
-  color: #181f3a;
-  font-weight: normal;
-  text-align: center;
-}
-
+/* FIRST SECTION HEADING 1 SETUP */
 #s1 h1 {
-  font-family: 'Passion One', cursive;
-  font-size: 80px;
-  text-transform: uppercase;
-  color: #181f3a;
+  font-family: bilbo, cursive;
+  font-size: 100px;
+  color: #fff5ec;
+  line-height: 0.5;
   text-align: center;
+  text-align-last: left;
+  padding-right: 1.125em;
 }
 
 .multi {
