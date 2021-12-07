@@ -134,8 +134,9 @@ section {
 #s1 h1 {
   font-family: bilbo, cursive;
   font-size: 100px;
+  font-weight: lighter;
   color: #fff5ec;
-  line-height: 0.5;
+  line-height: 0.35;
   text-align: center;
   text-align-last: left;
   padding-right: 1.125em;
@@ -240,34 +241,79 @@ section {
   height: 380px;
 }
 
-/* THIRD SECTION SETUP */
-#s3 {
-  display: grid;
-  /* fr is fraction and is responsive */
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px;
-}
-
-/* THIRD SECTION HEADLINE HEADING 1 SETUP */
-#s3 h1 {
-  font-family: condor, sans-serif;
-  font-size: 30px;
-  /* line-height: 1em; */
-  color: #181f3a;
-}
-
-/* THIRD SECTION TEXT SETUP */
-#s3 p {
-  font-size: 14px;
-  padding: 0 0.75em 0 0.75em;
-}
-
+/* FOOTER SETUP */
 footer {
   padding: 20px;
-  background: #1C1C26;
-  color: #FFFFFF;
+  width: 100vw;
+  height: 50vh;
+  background: url("../images/footer/footer.jpg") fixed bottom right no-repeat;
+  background-size: contain;
+  color: #fff5ec;
   font-size: 12px;
-  line-height: 1.5em;
-  text-align: center;
+  /* line-height: 1.5em;
+  text-align: center; */
+}
+
+/* FOOTER HEADING 1 SETUP */
+footer h1 {
+  font-family: bilbo, cursive;
+  font-size: 45px;
+  font-weight: lighter;
+  color: #fff5ec;
+  line-height: 0.25;
+  text-align: left;
+  padding-left: .5em;
+}
+
+/* LIST ITEM ELEMENT*/
+li {
+  /* Make bullet points disappear */
+  list-style-type: none;
+  padding-left: 1.75em;
+}
+
+/* FOOTER ICON SETUP */
+footer img {
+  width: auto;
+  height: 3em;
+  padding: 2px;
+  color: #fff5ec;
+}
+
+/* FOOTER HEADING 2 SETUP */
+footer h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #fff5ec;
+  text-align: left;
+  padding-left: 2em;
+}
+
+/* FOOTER TEXT SETUP */
+footer p {
+  padding: 0 0.75em 0 2em;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* FOOTER WRAP SETUP */
+#top-footer {
+  width: 300px;
+  height: auto;
+}
+
+#bottom-left-footer {
+  width: 100vw;
+  height: 25px;
+  position: relative;
+  top: 11em;
+}
+
+#bottom-right-footer {
+  width: 100vw;
+  height: 25px;
+  position: relative;
+  top: 8em;
+  left: 64em;
 }
