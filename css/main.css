@@ -78,8 +78,6 @@ body {
   z-index: 101;
   overflow-y: hidden;
   background-color: rgba(0, 0, 0, 0);
-  background: url("../images/dish-set-flipped.png") fixed top left no-repeat;
-  background-size: cover;
   /* Create flex container */
   display: flex;
   /* Stack text link horizontally */
@@ -122,9 +120,6 @@ section {
 #s1 {
   min-height: 100vh;
   height: auto;
-  /* padding-left: 5em; */
-  background: url("../images/dish-set-flipped.png") fixed top left no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: center;

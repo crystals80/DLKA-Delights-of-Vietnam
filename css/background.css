@@ -1,0 +1,54 @@
+/* BACKGROUND IMAGE CSS SETUP */
+/* FOR HOMEPAGE */
+.bg1 {
+  background: url("../images/dish-set-flipped.png") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR ABOUT US PAGE */
+.bg2 {
+  background: url("../images/dish-set-flipped.png") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR RECIPES PAGE */
+.bg3 {
+  background: url("../images/thu-nguyen-9VslureUyKI-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR NORTHERN RECIPES PAGE */
+.bg4 {
+  background: url("../images/kyle-thacker-3vTXTOFwfx0-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR CENTRAL RECIPES PAGE */
+.bg5 {
+  background: url("../images/ngo-thanh-tung-XpGORWJWPi8-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR SOUTHERN RECIPES PAGE */
+.bg6 {
+  background: url("../images/tron-le-wUk2U5Wirxg-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR ACCOMPANIMENT RECIPES PAGE */
+.bg7 {
+  background: url("../images/percy-pham-8502DXwY-7U-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR TIPS PAGE */
+.bg8 {
+  background: url("../images/steve-le-lMoFnXxrnaU-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
+
+/* FOR LOGIN PAGE */
+.bg9 {
+  background: url("../images/chris-slupski-tCM6cQjIQ7Q-unsplash.jpg") fixed top left no-repeat;
+  background-size: cover;
+}
