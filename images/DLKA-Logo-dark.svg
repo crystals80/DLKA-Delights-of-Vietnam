@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="144" viewBox="0 0 360 144">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 100px;
+        fill: #181f3a;
+        font-family: Condor;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="DLKA" class="cls-1" x="36.75" y="108.75">DLKA</text>
+</svg>

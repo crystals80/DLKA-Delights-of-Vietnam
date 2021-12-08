@@ -111,7 +111,7 @@ body {
 }
 
 /* NAVIGATION BAR DROP DOWN BUTTON */
-li a, .dropbtn {
+#navbar li a, .dropbtn {
   /* display: inline-block; */
   color: #fff5ec;
   text-align: center;
@@ -119,12 +119,12 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li.dropdown {
+#navbar li.dropdown {
   display: inline-block;
 }
 
 /* NAVIGATION BAR DROP DOWN CONTENT */
-.dropdown-content {
+#navbar .dropdown-content {
   display: none;
   position: absolute;
   background-color: #fff5ec;
@@ -135,8 +135,85 @@ li.dropdown {
 }
 
 /* NAVIGATION BAR DROP DOWN LINK */
-.dropdown-content a {
-  color: #353847;
+#navbar .dropdown-content a {
+  color: #181f3a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#navbar-dark {
+  /* For Safari */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 1.6em 0em 0em 0em;
+  width: 100%;
+  height: 55px;
+  z-index: 101;
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  /* Create flex container */
+  display: flex;
+  /* Stack text link horizontally */
+  flex-direction: row;
+  /* Wrap if necessary */
+  /* flex-wrap: wrap; */
+  /* Align to left-end on x axis */
+  justify-content: flex-end;
+  /* Center on y axis */
+  align-content: center;
+  transition: 0.5s;
+}
+
+/* DARK NAVIGATION BAR LINK SETUP */
+#navbar-dark a {
+  /* For Safari */
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: #181f3a;
+  transition: all 0.5s;
+}
+
+/* DARK NAVIGATION BAR ICON SETUP */
+#navbar-dark i {
+  padding-right: 1em;
+}
+
+/* DARK NAVIGATION BAR DROP DOWN BUTTON */
+#navbar-dark li a, .dropbtn {
+  /* display: inline-block; */
+  color: #181f3a;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+#navbar-dark li.dropdown {
+  display: inline-block;
+}
+
+/* NAVIGATION BAR DROP DOWN CONTENT */
+#navbar-dark .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #181f3a;
+  min-width: 160px;
+  height: auto;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 105;
+}
+
+/* DARK NAVIGATION BAR DROP DOWN LINK */
+#navbar-dark .dropdown-content a {
+  color: #181f3a;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

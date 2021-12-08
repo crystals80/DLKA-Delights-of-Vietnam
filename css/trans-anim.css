@@ -13,7 +13,7 @@
 
 /* HOVER OVER NAVIGATION BAR LINKS */
 #navbar a:hover, #navbar a:focus {
-  color: #353847;
+  color: #181f3a;
   background: #fff5ec;
 }
 
@@ -30,6 +30,34 @@ li a:hover, .dropdown:hover .dropbtn {
 /* HOVER OVER NAVIGATION BAR DROP DOWN LINKS  */
 .dropdown-content a:hover {
   background-color: #181f3a;
+}
+
+/* HOVER OVER DARK NAVIGATION BAR LINKS */
+#navbar-dark a:hover, #navbar-dark a:focus {
+  color: #fff5ec;
+  background: #181f3a;
+}
+
+/* HOVER OVER DARK NAVIGATION BAR RECIPE LINK */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #fff5ec;
+}
+
+/* HOVER OVER DARK NAVIGATION BAR DROP DOWN CONTENT */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* HOVER OVER DARK NAVIGATION BAR DROP DOWN LINKS  */
+.dropdown-content a:hover {
+  background-color: #fff5ec;
+}
+
+/* #s3 article p:hover {
+  animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+} */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
 }
 
 /* #s3 article p:hover {
