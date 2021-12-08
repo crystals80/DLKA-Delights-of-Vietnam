@@ -3,31 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 
-/* FONT: Passion One, Poiret One, Libre Baskerville */
-/* COLOUR */
-/* "181f3a",     "092286",    "1d3480", */
-/*  black blue, dark blue, gray purple blue, */
-/* "4c63c3",      "6d8bcd",       "9492c8" */
-/* purple blue, light purple blue, purple, */
-/* "cbb3c9",    "f6bdc9","fcecdf","ffffff" */
-/*  light purple, pink, light pink, white */
 /* TRANSITIONS */
+/* HOVER OVER LOGO */
 #logo:hover {
   top: 3em;
   left: 3em;
   transform: scale(2);
 }
 
-#navbar a:hover, .overlay a:focus {
-  color: #fff;
-  background: #4c63c3;
+/* HOVER OVER NAVIGATION BAR LINKS */
+#navbar a:hover, #navbar a:focus {
+  color: #353847;
+  background: #fff5ec;
 }
 
-#navbar a span:hover, .overlay a span:focus, .overlay a span:active {
-  transform: perspective(2px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  text-shadow: 0 0 20px #181f3a;
-  animation: hvr-pulse-grow 0.6s linear infinite alternate;
+/* HOVER OVER NAVIGATION BAR RECIPE LINK */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #181f3a;
+}
+
+/* HOVER OVER NAVIGATION BAR DROP DOWN CONTENT */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* HOVER OVER NAVIGATION BAR DROP DOWN LINKS  */
+.dropdown-content a:hover {
+  background-color: #181f3a;
 }
 
 /* #s3 article p:hover {
