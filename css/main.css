@@ -171,6 +171,25 @@ section {
   padding-right: 1.125em;
 }
 
+/* FIRST SECTION (center) SETUP */
+#s1-5 {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIRST SECTION HEADING 1 (on 1 line) SETUP */
+#s1-5 h1 {
+  font-family: bilbo, cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  color: #fff5ec;
+  line-height: 0.35;
+  text-align: center;
+}
+
 /* CONTENT SETUP (3 COLUMNS) */
 .multi {
   /* For Chrome, Safari, Opera */
