@@ -289,6 +289,115 @@ section {
   height: 380px;
 }
 
+/* THIRD SECTION SETUP */
+#s3 {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* THIRD SECTION ARTICLE SETUP */
+/* #s3 article {
+  margin: 20px;
+  height: 300px;
+  position: relative;
+  flex: 1 auto;
+}
+
+#s3 article div {
+  background: #fff;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-style: italic;
+  color: #181f3a;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+} */
+/* THIRD SECTION IMG SETUP */
+#s3 img {
+  padding: 1em 2em 0 2em;
+}
+
+/* THIRD SECTION LINK SETUP */
+#s3 a, #s3 a:visited {
+  color: #181f3a;
+  text-decoration: none;
+}
+
+/* THIRD SECTION HEADING 1 SETUP */
+#s3 h1 {
+  font-family: condor, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  /* line-height: 0.35; */
+  text-align: left;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* THIRD SECTION HEADING 2 SETUP */
+#s3 h2 {
+  font-family: bilbo, cursive;
+  font-size: 24px;
+  font-weight: lighter;
+  /* line-height: 0.35; */
+  text-align: right;
+  padding-top: 4.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.container {
+  position: relative;
+}
+
+/* RECIPE IMAGE SETUP */
+.square-pic {
+  display: block;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffe0af;
+  overflow: hidden;
+  width: 350px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text1 {
+  /* position: absolute; */
+  display: contents;
+  color: #181f3a;
+  /* text-align: center; */
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.blank {
+  font-size: 30px;
+  background-color: #fff5ec;
+}
+
 /* FOOTER SETUP */
 footer {
   padding: 20px;
