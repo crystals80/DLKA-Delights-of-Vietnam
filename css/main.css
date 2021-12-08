@@ -241,6 +241,25 @@ section {
   color: #181f3a;
 }
 
+/* SECOND SECTION HEADLINE HEADING 1 SPAN SETUP */
+#headline1 h1 span {
+  font-family: bilbo, cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1em;
+  color: #181f3a;
+  padding-left: .5em;
+}
+
+/* SECOND SECTION HEADLINE HEADING 2 SETUP */
+#headline1 h2 {
+  font-family: bilbo, cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1em;
+  color: #181f3a;
+}
+
 /* SECOND SECTION SETUP */
 #s2 {
   display: flex;
@@ -300,27 +319,6 @@ section {
   align-items: center;
 }
 
-/* THIRD SECTION ARTICLE SETUP */
-/* #s3 article {
-  margin: 20px;
-  height: 300px;
-  position: relative;
-  flex: 1 auto;
-}
-
-#s3 article div {
-  background: #fff;
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
-  font-style: italic;
-  color: #181f3a;
-  padding: 10px 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 0 0 10px 10px;
-} */
 /* THIRD SECTION IMG SETUP */
 #s3 img {
   padding: 1em 2em 0 2em;
@@ -393,9 +391,116 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.blank {
+/* FOURTH SECTION SETUP */
+#s4 {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+/* FOURTH SECTION ARTICLE SETUP */
+#s4 article {
+  margin: 0 4em 0 4em;
+  padding: 0 2em 0 2em;
+}
+
+/* FOURTH SECTION HEADLINE HEADING 1 SETUP */
+#s4 h1 {
+  font-family: condor, sans-serif;
+  font-size: 30px;
+  line-height: 1em;
+  color: #181f3a;
+}
+
+/* FOURTH SECTION TEXT SETUP */
+#s4 p {
+  font-size: 14px;
+  /* padding: 0 0.75em 0 0.75em; */
+}
+
+#s4 ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#s4 ol li {
+  counter-reset: style-counter;
+  width: 65%;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+#s4 ol li p:before {
+  counter-increment: style-counter;
+  content: counter(style-counter);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  font-family: condor, serif;
+  line-height: 1.05;
+}
+
+/* BLANK SECTION */
+#blank {
   font-size: 30px;
   background-color: #fff5ec;
+}
+
+/* BLANK HEADING 2 SECTION */
+#blank h2 {
+  margin: 0;
+  padding: 1em;
+  font-family: bilbo, cursive;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+  color: #181f3a;
+}
+
+/* SHARE POSTS SECTION */
+#share {
+  width: 100vw;
+  height: auto;
+  padding-left: 8em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+/* INPUT NAME */
+input[type=text], select, textarea {
+  width: 83vw;
+  margin-bottom: 1em;
+  padding: 12px 20px 12px 40px;
+  box-sizing: border-box;
+  border: 2px solid #181f3a;
+  border-radius: 4px;
+  font-family: minion-pro, serif;
+  font-size: 16px;
+  background-color: #fffbf6;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+/* INPUT EXPERIENCE AND SUBMIT */
+input[type=submit] {
+  background-color: #181f3a;
+  color: #fff5ec;
+  padding: 12px 30px;
+  margin-left: 65em;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  float: right;
 }
 
 /* FOOTER SETUP */
