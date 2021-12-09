@@ -677,13 +677,15 @@ footer p {
   width: 100vw;
   height: 25px;
   position: relative;
-  top: 11em;
+  top: 14em;
+  float: left;
 }
 
 #bottom-right-footer {
   width: 100vw;
   height: 25px;
   position: relative;
-  top: 8em;
-  left: 64em;
+  top: 12em;
+  left: 60%;
+  float: right;
 }
