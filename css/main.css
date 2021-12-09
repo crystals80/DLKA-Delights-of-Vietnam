@@ -468,6 +468,38 @@ section {
   transform: translate(-50%, -50%);
 }
 
+/* ANECDOTE SECTION SETUP */
+#anecdote {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+/* ANECDOTE SECTION ARTICLE SETUP */
+#anecdote article {
+  margin: 0 4em 0 4em;
+  padding: 0 2em 0 2em;
+}
+
+/* ANECDOTE SECTION HEADLINE HEADING 1 SETUP */
+#anecdote h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  line-height: 1em;
+  color: #181f3a;
+}
+
+/* ANECDOTE SECTION TEXT SETUP */
+#anecdote p {
+  padding: 0 3em;
+  font-size: 16px;
+  /* padding: 0 0.75em 0 0.75em; */
+}
+
 /* FOURTH SECTION SETUP */
 #s4 {
   width: 100vw;
